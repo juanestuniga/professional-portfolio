@@ -119,6 +119,71 @@ footer h4{
   
 /* My Work */
 
+.item1 { grid-area: item1; }
+.item2 { grid-area: item2; }
+.item3 { grid-area: item3; }
+.item4 { grid-area: item4; }
+.item5 { grid-area: item5; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'item1 item1 item1 item1 item1 item1'
+  'item2 item2 item2 item3 item3 item3'
+  'item4 item4 item4 item5 item5 item5';
+  grid-gap: 10px;
+  background-color: black;
+  padding: 5px;
+  
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1{
+background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?k=20&m=1157789866&s=612x612&w=0&h=1txTQ36VQ8Wc4N2AwrLwMQ9Llb9mleL8FVzQj_apU3E=");
+background-size: cover;
+background-position: center;
+height: 300px;
+width: 100%:
+}
+
+.item2{
+background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?k=20&m=1157789866&s=612x612&w=0&h=1txTQ36VQ8Wc4N2AwrLwMQ9Llb9mleL8FVzQj_apU3E=");
+background-size: cover;
+background-position: center;
+height: 150px;
+width: 100%:
+}
+
+.item3{
+background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?k=20&m=1157789866&s=612x612&w=0&h=1txTQ36VQ8Wc4N2AwrLwMQ9Llb9mleL8FVzQj_apU3E=");
+background-size: cover;
+background-position: center;
+height: 150px;
+width: 100%:
+}
+
+.item4{
+background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?k=20&m=1157789866&s=612x612&w=0&h=1txTQ36VQ8Wc4N2AwrLwMQ9Llb9mleL8FVzQj_apU3E=");
+background-size: cover;
+background-position: center;
+height: 150px;
+width: 100%:
+}
+
+.item5{
+background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?k=20&m=1157789866&s=612x612&w=0&h=1txTQ36VQ8Wc4N2AwrLwMQ9Llb9mleL8FVzQj_apU3E=");
+background-size: cover;
+background-position: center;
+height: 150px;
+width: 100%:
+}
+
 
 /* Contact Section */
   .contact {
