@@ -7,7 +7,7 @@ This is a webiste for me to showcase the work that I have done, my bio and a way
 
 -[Live](https://juanestuniga.github.io/professional-portfolio/) 
 ## Screenshots
-![Screenshot](assets/imgs/website.png)
+![Screenshot](assets/images/website.png)
 ## Built With
 -HTML 
 
