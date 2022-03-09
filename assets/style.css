@@ -1,16 +1,13 @@
-:root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
-  }
+
 *   {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 /* body of the html*/
 body {
-    color: var(--tertiary-color);
+    color: olivedrab;
     font-family: 'Courier New', Courier, monospace;
 }
 /* apply styles to <header> */
@@ -51,7 +48,7 @@ header nav ul li a {
 }
 header nav ul li a:hover {
     background: tomato;
-    color: var(--secondary-color);
+    color: white;
     border-radius: 15px;
     text-shadow: none;
   }
@@ -92,11 +89,13 @@ footer h4{
     border-radius: 50%;
 
 }
-/* Hero Style End */
+
+
 /* About Me*/
 .intro{
     text-align: center;
     padding: 40px;
+    background-color: black;
 }
 .intro p {
     text-align: center;
@@ -104,7 +103,7 @@ footer h4{
 
 .section-title {
     font-size: 48px;
-    color: var(--secondary-color);
+    color: orange;
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
@@ -113,11 +112,11 @@ footer h4{
   }
   
   .primary-border {
-    border-color: var(--primary-color);
+    border-color: orangered;
   }
   
   .secondary-border {
-    border-color: var(--tertiary-color);
+    border-color: orangered;
   }
   
 /* My Work */
@@ -134,89 +133,152 @@ footer h4{
   'item1 item1 item1 item1 item1 item1'
   'item2 item2 item2 item3 item3 item3'
   'item4 item4 item4 item5 item5 item5';
-  grid-gap: 10px;
+  grid-gap: 30px;
   background-color: black;
-  padding: 5px;
-  
+  padding: 20px;
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+.grid-container  div {
+    background-color: black;
+    padding: 20px 0;
+    font-size: 30px;
 }
 
-.item1{
-background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?k=20&m=1157789866&s=612x612&w=0&h=1txTQ36VQ8Wc4N2AwrLwMQ9Llb9mleL8FVzQj_apU3E=");
-background-size: cover;
-background-position: center;
-height: 300px;
-width: 100%:
+.text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.item1 {
+    background-image: url("./imgs/run-buddy.png");
+    position: relative;
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.item1:hover {
+    background: url("./imgs/run-buddy.png");
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    width: 100%;
+    opacity: 1.0;
 }
 
 .item2{
-background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?k=20&m=1157789866&s=612x612&w=0&h=1txTQ36VQ8Wc4N2AwrLwMQ9Llb9mleL8FVzQj_apU3E=");
-background-size: cover;
-background-position: center;
-height: 150px;
-width: 100%:
+    background-image: url("./imgs/item2.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.item2:hover {
+    background: url("./imgs/item2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    opacity: 1.0;
 }
 
 .item3{
-background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?k=20&m=1157789866&s=612x612&w=0&h=1txTQ36VQ8Wc4N2AwrLwMQ9Llb9mleL8FVzQj_apU3E=");
-background-size: cover;
-background-position: center;
-height: 150px;
-width: 100%:
+    background-image: url("./imgs/item3.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.item3:hover {
+    background: url("./imgs/item3.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+    width: 100%;
+    opacity: 1.0;
 }
 
 .item4{
-background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?k=20&m=1157789866&s=612x612&w=0&h=1txTQ36VQ8Wc4N2AwrLwMQ9Llb9mleL8FVzQj_apU3E=");
-background-size: cover;
-background-position: center;
-height: 150px;
-width: 100%:
+    background-image: url("./imgs/item4.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.item4:hover {
+    background: url("./imgs/item4.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+    width: 100%;
+    opacity: 1.0;
 }
 
 .item5{
-background-image: url("https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?k=20&m=1157789866&s=612x612&w=0&h=1txTQ36VQ8Wc4N2AwrLwMQ9Llb9mleL8FVzQj_apU3E=");
-background-size: cover;
-background-position: center;
-height: 150px;
-width: 100%:
+    background-image: url("./imgs/item5.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.item5:hover {
+    background: url("./imgs/item5.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+    width: 100%;
+    opacity: 1.0;
 }
 
 
 /* Contact Section */
-  .contact {
+.contact {
       background: black;
   }
-  .contact-info {
+.contact-info {
      text-align: center;
      padding: 40px;
   }
-  .contact h2{
-      color: tomato;
+.contact h2{
+      color: orange;
   }
 
-  .contact-info div{
+.contact-info div{
       color: white;
   }
-  .contact-info h3{
+.contact-info h3{
       color: orange;
       font-size: 32px;
   }
-  .contact-info p, .contact-info address{
+.contact-info p, .contact-info address{
       margin: 20px 0;
       line-height: 1.5;
       font-size: 16px;
       font-style: normal;
   }
-  .contact-info a {
+.contact-info a {
       color: orange;
   }
-  .contact-info > * {
+.contact-info > * {
       flex: 1;
       margin: 15px;
   }
@@ -263,7 +325,7 @@ width: 100%:
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
       }
@@ -271,7 +333,7 @@ width: 100%:
       
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
     
     .hero {
         display: flex;
