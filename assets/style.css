@@ -74,7 +74,7 @@ footer h4{
 }
 /* Hero Style Start*/
 .hero{
-    background-image: url("./imgs/header.jpg");
+    background-image: url("./images/header.jpg");
     background-size: cover;
     display: flex;
     justify-content: flex-start;
@@ -155,7 +155,7 @@ footer h4{
     padding-right: 20px;
 }
 .item1 {
-    background-image: url("./imgs/run-buddy.png");
+    background-image: url("./images/run-buddy.png");
     position: relative;
     background-size: cover;
     background-position: top;
@@ -164,7 +164,7 @@ footer h4{
     opacity: 0.5;
 }
 .item1:hover {
-    background: url("./imgs/run-buddy.png");
+    background: url("./images/run-buddy.png");
     background-size: cover;
     background-position: top;
     height: 400px;
@@ -172,7 +172,7 @@ footer h4{
     opacity: 1.0;
 }
 .item2{
-    background-image: url("./imgs/item2.jpg");
+    background-image: url("./images/item2.jpg");
     position: relative;
     background-size: cover;
     background-position: center;
@@ -181,7 +181,7 @@ footer h4{
     opacity: 0.5;
 }
 .item2:hover {
-    background: url("./imgs/item2.jpg");
+    background: url("./images/item2.jpg");
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -189,7 +189,7 @@ footer h4{
     opacity: 1.0;
 }
 .item3{
-    background-image: url("./imgs/item3.jpg");
+    background-image: url("./images/item3.jpg");
     position: relative;
     background-size: cover;
     background-position: top;
@@ -198,7 +198,7 @@ footer h4{
     opacity: 0.5;
 }
 .item3:hover {
-    background: url("./imgs/item3.jpg");
+    background: url("./images/item3.jpg");
     background-size: cover;
     background-position: top;
     height: 300px;
@@ -206,7 +206,7 @@ footer h4{
     opacity: 1.0;
 }
 .item4{
-    background-image: url("./imgs/item4.jpg");
+    background-image: url("./images/item4.jpg");
     position: relative;
     background-size: cover;
     background-position: top;
@@ -215,7 +215,7 @@ footer h4{
     opacity: 0.5;
 }
 .item4:hover {
-    background: url("./imgs/item4.jpg");
+    background: url("./images/item4.jpg");
     background-size: cover;
     background-position: top;
     height: 300px;
@@ -223,7 +223,7 @@ footer h4{
     opacity: 1.0;
 }
 .item5{
-    background-image: url("./imgs/item5.jpg");
+    background-image: url("./images/item5.jpg");
     position: relative;
     background-size: cover;
     background-position: top;
@@ -232,7 +232,7 @@ footer h4{
     opacity: 0.5;
 }
 .item5:hover {
-    background: url("./imgs/item5.jpg");
+    background: url("./images/item5.jpg");
     background-size: cover;
     background-position: top;
     height: 300px;
