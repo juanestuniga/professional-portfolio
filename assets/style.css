@@ -87,10 +87,7 @@ footer h4{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-
 }
-
-
 /* About Me*/
 .intro{
     text-align: center;
@@ -100,7 +97,6 @@ footer h4{
 .intro p {
     text-align: center;
 }
-
 .section-title {
     font-size: 48px;
     color: orange;
@@ -110,23 +106,30 @@ footer h4{
     margin: 0 auto 35px auto;
     width: 50%; 
   }
-  
-  .primary-border {
+.primary-border {
     border-color: orangered;
   }
   
-  .secondary-border {
+.secondary-border {
     border-color: orangered;
   }
-  
 /* My Work */
 
-.item1 { grid-area: item1; }
-.item2 { grid-area: item2; }
-.item3 { grid-area: item3; }
-.item4 { grid-area: item4; }
-.item5 { grid-area: item5; }
-
+.item1 { 
+    grid-area: item1; 
+}
+.item2 { 
+    grid-area: item2; 
+}
+.item3 { 
+    grid-area: item3; 
+}
+.item4 { 
+    grid-area: item4; 
+}
+.item5 { 
+    grid-area: item5; 
+}
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -137,15 +140,12 @@ footer h4{
   background-color: black;
   padding: 20px;
 }
-
 .grid-container  div {
     background-color: black;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 12px;
 }
-
 .text{
-    font-size: 50px;
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -154,7 +154,6 @@ footer h4{
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .item1 {
     background-image: url("./imgs/run-buddy.png");
     position: relative;
@@ -164,7 +163,6 @@ footer h4{
     width: 100%;
     opacity: 0.5;
 }
-
 .item1:hover {
     background: url("./imgs/run-buddy.png");
     background-size: cover;
@@ -173,7 +171,6 @@ footer h4{
     width: 100%;
     opacity: 1.0;
 }
-
 .item2{
     background-image: url("./imgs/item2.jpg");
     position: relative;
@@ -183,7 +180,6 @@ footer h4{
     width: 100%;
     opacity: 0.5;
 }
-
 .item2:hover {
     background: url("./imgs/item2.jpg");
     background-size: cover;
@@ -192,7 +188,6 @@ footer h4{
     width: 100%;
     opacity: 1.0;
 }
-
 .item3{
     background-image: url("./imgs/item3.jpg");
     position: relative;
@@ -202,7 +197,6 @@ footer h4{
     width: 100%;
     opacity: 0.5;
 }
-
 .item3:hover {
     background: url("./imgs/item3.jpg");
     background-size: cover;
@@ -211,7 +205,6 @@ footer h4{
     width: 100%;
     opacity: 1.0;
 }
-
 .item4{
     background-image: url("./imgs/item4.jpg");
     position: relative;
@@ -221,7 +214,6 @@ footer h4{
     width: 100%;
     opacity: 0.5;
 }
-
 .item4:hover {
     background: url("./imgs/item4.jpg");
     background-size: cover;
@@ -230,7 +222,6 @@ footer h4{
     width: 100%;
     opacity: 1.0;
 }
-
 .item5{
     background-image: url("./imgs/item5.jpg");
     position: relative;
@@ -240,7 +231,6 @@ footer h4{
     width: 100%;
     opacity: 0.5;
 }
-
 .item5:hover {
     background: url("./imgs/item5.jpg");
     background-size: cover;
@@ -249,8 +239,6 @@ footer h4{
     width: 100%;
     opacity: 1.0;
 }
-
-
 /* Contact Section */
 .contact {
       background: black;
@@ -293,12 +281,10 @@ footer h4{
         justify-content: center;
         position: relative;
       }
-    
       header h1 {
         width: 100%;
         text-align: center;
       }
-    
       header nav ul {
         margin-top: 20px;
         width: 100%;
@@ -315,14 +301,6 @@ footer h4{
       .section-title {
         width: 80%;
       }
-      
-      .trainer {
-        flex: 0 70%;
-      }
-      
-      .contact-info iframe{
-        flex: 1 100%;
-      }
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -336,6 +314,9 @@ footer h4{
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     
+    header nav ul li a {
+        font-size: 17px;
+      }
     .hero {
         display: flex;
         align-items: center;
@@ -347,18 +328,24 @@ footer h4{
     }  
     .section-title {
         width: 95%;
-      }
-    
-      .intro p {
+    }
+    .intro p {
         width: 100%;
-      }
-      .contact-info {
+    }
+    .grid-container  div {
+        background-color: black;
+        margin: 10px;
+        font-size: 10px;
+    }
+    .text{
+        left: 0px;
+    }
+    .contact-info {
         text-align: center;
-      }
-    
-      .contact-info > * {
+    }
+    .contact-info > * {
         flex: 0 100%;
-      }
+    }
     
   }
   
